@@ -13,7 +13,6 @@
 
       h1 {
         color: #781f26;
-        text-align: center;
         border-bottom: 2px #20252a solid;
       }
 
@@ -30,6 +29,9 @@
         margin: 0 auto;
         padding-bottom: 20px;
         padding-top: 10px;
+      }
+      #contactInfo {
+        text-align: left;
       }
     </style>
   </head>
@@ -74,10 +76,16 @@
       </p>
     </main>
     <footer>
-      <address>Dragon Way, St. Cloud, MN 56301</address>
-      Email: contact@dragonsden.edu <br />
-      Phone: (123) 456-7890 <br />
-      Fax: (123) 456-7891
+      <address>
+        <div id="streetAddress">Dragon Way, St. Cloud, MN 56301</div>
+        <div id="contactInfo">
+          <ul>
+            <li>Email: contact@dragonsden.edu</li>
+            <li>Phone: (123) 456-7890</li>
+            <li>Fax: (123) 456-7891</li>
+          </ul>
+        </div>
+      </address>
     </footer>
   </body>
 </html>
