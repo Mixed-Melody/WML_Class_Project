@@ -13,36 +13,42 @@
 
       h1 {
         color: #781f26;
+        text-align: center;
+        border-bottom: 2px #20252a solid;
+        padding-bottom: 10px;
+      }
+
+      nav {
         border-bottom: 2px #20252a solid;
       }
 
       h2 {
         color: #781f26;
-        border-bottom: 2px #b8862b solid;
-        max-width: 800px;
-        margin: 0 auto;
+        text-decoration: underline 1.5px #b8862b wavy;
       }
 
       p {
         color: #20252a;
-        max-width: 800px;
-        margin: 0 auto;
-        padding-bottom: 20px;
-        padding-top: 10px;
       }
-      #contactInfo {
-        text-align: left;
+
+      ul {
+        list-style-type: none;
+        padding: 0;
       }
     </style>
   </head>
 
   <body>
     <header>
-      <img src="logo.png" alt="College Logo" /><br />
-      <h1>Dragon's Den Community and Tech college</h1>
+      <h1>
+        <img src="logo.png" alt="College Logo" /><br />
+        Dragon's Den Community and Tech college
+      </h1>
       <nav rule="navigation">
-        <li>Home</li>
-        <li>Admissions</li>
+        <ul>
+          <li>Home</li>
+          <li>Admissions</li>
+        </ul>
       </nav>
     </header>
 
@@ -77,14 +83,12 @@
     </main>
     <footer>
       <address>
-        <div id="streetAddress">Dragon Way, St. Cloud, MN 56301</div>
-        <div id="contactInfo">
-          <ul>
-            <li>Email: contact@dragonsden.edu</li>
-            <li>Phone: (123) 456-7890</li>
-            <li>Fax: (123) 456-7891</li>
-          </ul>
-        </div>
+        <ul>
+          <li>Address: Dragon Way, St. Cloud, MN 56301</li>
+          <li>Email: contact@dragonsden.edu</li>
+          <li>Phone: (123) 456-7890</li>
+          <li>Fax: (123) 456-7891</li>
+        </ul>
       </address>
     </footer>
   </body>
