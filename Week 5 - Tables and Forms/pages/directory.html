@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DDCTC: Directory</title>
+    <title>DDCTC: Directory</title> <!-- updated for week 5 -->
     <style>
       body {
         background-color: #f5f1e8;
@@ -32,13 +32,33 @@
       address {
         border-bottom: 2px #20252a solid;
       }
+      /* added td, th, table for week 5 */
+      td{
+        border: 1px #20252a solid;
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+      }
+      th{
+        color: #b8862b;
+        background-color: #781f26;
+        border-bottom: 2px #20252a solid;
+        padding-top: 3px;
+        padding-bottom: 3px;
+      }
+      table{
+        border-collapse: collapse;
+        border: 2px #20252a solid;      
+      }
     </style>
   </head>
 
   <body>
+
     <header>
       <h1>
-        <img src="../graphics/logo.png" alt="College Logo" /><br />
+        <img src="../graphics/logo.png" alt="College Logo" /><br /> <!-- updated for week 5 -->
         Dragon's Den Community and Tech college
       </h1>
       <nav rule="navigation">
@@ -46,33 +66,59 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="admissions.html">Admissions</a></li>
           <li><a href="programs.html">Programs</a></li>
+          <li><a href="directory.html">Directory</a></li> <!-- updated for week 5 -->
         </ul>
       </nav>
     </header>
 
     <main>
-      <h2>Welcome</h2>
-      <p>
-        Welcome, potential students, to Dragon's Den Community and Tech College! Here at Dragon's Den, we provide a
-        unique learning experience for dragons from all walks of life. Whether you're a young dragon just leaving the
-        nest or an older dragon looking to learn a new skill, our goal is to provide a welcoming place where every
-        dragon can learn, grow, and prepare for their future.
-      </p>
+      <h2>Directory</h2><!-- vv  week 5 vv -->
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Program</th>
+            <th>Email</th>
+            <th>Phone</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Professor Ember Ashwing</td>
+            <td><a href="programs.html#fireControl">Advanced Fire Control</a></td>
+            <td><a href="mailto:eashwing@dragonsden.edu">eashwing@dragonsden.edu</a></td>
+            <td><a href="tel:(123) 456-2101">(123) 456-2101</a></td>
+          </tr>
+          <tr>
+            <td>Professor Aurelia Goldscale</td>
+            <td><a href="programs.html#treasureManagement">Treasure Management</a></td>
+            <td><a href="mailto:augoldscale@dragonsden.edu">agoldscale@dragonsden.edu</a></td>
+            <td><a href="tel:(123) 456-7891">(123) 456-2102</a></td>
+          </tr>
+          <tr>
+            <td>Professor Garrick Ironclaw</td>
+            <td><a href="programs.html#knightAvoidance">Knight Avoidance and Conflict Resolution</a></td>
+            <td><a href="mailto:gironclaw@dragonsden.edu">gironclaw@dragonsden.edu</a></td>
+            <td><a href="tel:(123) 456-7892">(123) 456-7892</a></td>
+          </tr>
+          <tr>
+            <td>Professor Tessa Stonewing</td>
+            <td><a href="programs.html#lairDesign">Lair Design and Defense</a></td>
+            <td><a href="mailto:tessa.stonewing@dragonsden.edu">tessa.stonewing@dragonsden.edu</a></td>
+            <td><a href="tel:(123) 456-7893">(123) 456-7893</a></td>
+          </tr>
+          <tr>
+            <td>Professor Rowan Quicktalon</td>
+            <td><a href="programs.html#responsiblePillaging">Responsible Pillaging and Resource Acquisition</a></td>
+            <td><a href="mailto:rowan.quicktalon@dragonsden.edu">rowan.quicktalon@dragonsden.edu</a></td>
+            <td><a href="tel:(123) 456-7894">(123) 456-7894</a></td>
+          </tr>
+        </tbody>
+      </table>
 
-      <h2>About Us</h2>
-      <p>
-        Our founder, Bob the blue Dragon, established Dragon's Den with the vision of creating a place where dragons
-        could learn and grow together. What started as a small school inside a mountainside cave has grown into a
-        community and technical college serving dragons from across the kingdom. We are proud to combine traditional
-        dragon knowledge with the practical skills needed to <em>survive and thrive</em> in the modern kingdom.
-      </p>
-
-      <h2>Contact Us</h2>
-      <p>
-        If you have any questions or would like to learn more about our programs, please feel free to contact us. We
-        would be happy to help you learn more about becoming a student at Dragon's Den.
-      </p>
+      <!-- ^^  week 5 ^^ -->
     </main>
+
     <footer>
       <address>
         <h3>Contact Information</h3>
