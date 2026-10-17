@@ -1,0 +1,53 @@
+@import url("nav.css");
+
+body {
+    background-color: #f5f1e8;
+    font-family: sans-serif;
+}
+/* Week 8 */
+main {
+    background-image: url("graphics/logo2.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 5%;
+    
+}
+/* Week 8 */
+main a:visited, footer a:visited {
+    color: #9a2a6b;
+}
+
+p {
+    color: #20252a;
+}
+
+address {
+    border-bottom: .15rem #20252a solid; 
+}
+
+header h1 {
+    color: #781f26;
+    text-align: center;
+    padding-bottom: .5rem;
+    text-decoration: none;
+    border-bottom: .15rem #20252a solid;
+    text-shadow: -.15rem .1rem .15rem #b8862b;
+    font-size: 2rem;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+main p {
+    text-indent: 1.5rem;
+}
+
+h2 {
+    color: #781f26;
+    text-decoration: underline .1rem #b8862b wavy;
+}
