@@ -1,0 +1,137 @@
+@import url("nav.css");
+
+body {
+    background-color: #f5f1e8;
+    font-family: sans-serif;
+    margin-bottom: 0; /* week 9 */
+    /* Moved background to footer to keep from overlapping with main content */
+
+}
+
+/*main {
+    background-image: url("graphics/logo2.webp");
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 5%;
+    
+}*/
+
+main a:visited, footer a:visited {
+    color: #9a2a6b;
+}
+
+p {
+    color: #20252a;
+}
+
+address {
+    border-bottom: .15rem #20252a solid; 
+}
+/* V week 9 V */
+main > section {
+    clear: both;
+}
+#welcomeImage {
+    float: left;
+    width: 20%;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+#aboutImage {
+    float: right;
+    width: 20%;
+    padding-left: 1rem;
+}
+footer{
+    clear: both;
+    position: sticky;
+    bottom: 0;
+    width: 98%;
+    padding: .5rem .5rem;
+    color: #20252a;
+    background-color: #f5f1e8;
+    border-top: .15rem #20252a solid;
+    /* week 10 */
+    /* Moved background to footer to keep from overlapping or getting overlapped */
+    background-image: url("graphics/logo2.webp");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 5%;
+}
+/* made the footer go horizontal instead of vertical */
+footer ul{
+    display: flex;
+    padding: 0;
+    padding-left: 1rem;
+    gap: 1.5rem;
+}
+/* ^ week 9 ^ */
+header h1 {
+    color: #781f26;
+    text-align: center;
+    padding-bottom: .5rem;
+    text-decoration: none;
+    border-bottom: .15rem #20252a solid;
+    text-shadow: -.15rem .1rem .15rem #b8862b;
+    font-size: 2rem;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+main p {
+    text-indent: 1.5rem;
+}
+
+h2 {
+    color: #781f26;
+    text-decoration: underline .1rem #b8862b wavy;
+}
+/* VV week VV 10 */
+#registerMain {
+    display: flex; /* Turns main into a flex container and its children into flex items */
+    flex-flow: row wrap; /* Combines flex-direction and flex-wrap */
+    justify-content: center;/* Centers the cards horizontally */
+    align-items: stretch; /* Makes the cards in the same row streatch to match the row height */
+    margin: 0.75rem;/* margin around the flex container */
+    padding: 1rem;/* padding inside the flex container */
+}
+#registerMain p {
+    text-indent: 0;/* removed the text-indent for card paragraphs */
+    
+}
+.courseCard {
+    display: flex; /* Turns the card into a flex container */
+    flex-direction: column; /* makes the card a flex container with vertical layout */
+    flex: 1 1 30rem; /* flex-grow, flex-shrink, flex-basis */
+    max-width: 30rem;/* max-width of the card */
+    margin: 0.75rem;/* margin around the card */
+    padding: 1rem;/* padding inside the card */
+    border: 2px solid #20252a;
+    border-radius: 10px;
+    background-color: #f5f1e8;
+    /* thought adding the logo to the card would be nice */
+    background-image: url("graphics/logo.webp");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 13%;
+}
+.courseCard p {
+     margin: 0; /* wanted to keep the course and credit together without a big gap between them */
+}
+.courseCard .courseDescription { /* added a class to the course paragraph to add margin */
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.courseCard button {
+    margin-top: auto; /* pushes the button to the bottom of the card */
+   
+}
+.courseLabel { /* label to make Course name and credit bold */
+    font-weight: bold;
+}

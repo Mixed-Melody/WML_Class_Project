@@ -1,0 +1,70 @@
+ nav {
+     border-bottom: .15rem #20252a solid;
+ }
+/* V Week 8 V */
+ header nav {
+     border-radius: 10px;
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 15px;
+     background-image: linear-gradient(to bottom, #ddaf59, #a98034);
+     box-shadow: 2px 2px 5px #989a9c;
+     padding: 10px 0px;
+ }
+
+ nav a {
+     color: #20252a;
+ }
+
+ nav a:hover,nav a:focus {
+     color:rgb(151, 57, 35);
+     text-decoration: underline;
+ }
+
+ nav a:active {
+     color: #2fa437;
+     text-decoration: underline;
+ }
+
+ nav>ul {
+     text-align: center;
+     margin: auto auto;
+ }
+
+ nav>ul>li {
+     display: inline;
+     margin-right: 15px;
+ }
+
+ #programNav {
+        border-radius: 10px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+        background-image: linear-gradient(to bottom, #973039, #571a1f);
+        box-shadow: 2px 2px 5px #989a9c;
+        padding: 10px 0px;
+ }
+ #programNav a {
+        color: #ddaf59;
+ }
+ #programNav a:hover,#programNav a:focus {
+     color:rgb(252, 252, 252);
+     text-decoration: underline;
+ }
+
+ #programNav a:active {
+     color: #2fa437;
+     text-decoration: underline;
+ }
+/* ^ Week 8 ^ */
+ nav>ul>li>a {
+     text-decoration: none;
+ }
+
+ #mainNav .current {
+     font-style: italic;
+     font-weight: bold;
+ }
