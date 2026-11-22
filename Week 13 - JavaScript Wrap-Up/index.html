@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dragon's Den Community and Tech College</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h1>
+      <img src="graphics/logo.webp" alt="College Logo" onclick="displayInfo(collegeInfo);" /><br />
+      Dragon's Den Community and Tech college
+    </h1>
+    <nav id="mainNav" class="navigation">
+      <ul>
+        <li><a href="#" class="current">Home</a></li>
+        <li><a href="pages/admissions.html">Admissions</a></li>
+        <li><a href="pages/programs.html">Programs</a></li>
+        <li><a href="pages/directory.html">Directory</a></li>
+        <li><a href="pages/register.html">Register</a></li>
+        <!-- week 10 -->
+      </ul>
+    </nav>
+  </header>
+
+  <main id="mainIndex">
+
+    <div id="indexContent">
+      <section id="welcomeSection">
+        <img src="graphics/welcomeImage.webp" id="welcomeImage" class="displayImages"
+          alt="Dragon's Den campus entrance" />
+        <h2>Welcome</h2>
+        <p>
+          Welcome, potential students, to Dragon's Den Community and Tech College! Here at Dragon's Den, we provide a
+          unique learning experience for dragons
+          from all walks of life. Whether you're a young dragon just leaving the nest or an older dragon looking to
+          learn a new skill, our goal is to provide
+          a welcoming place where every dragon can learn, grow, and prepare for their future.
+        </p>
+      </section>
+      <section id="aboutSection">
+        <img src="graphics/aboutImage.webp" id="aboutImage" class="displayImages" alt="Dragon's Den campus buildings"/>
+        <h2>About Us</h2>
+        <p>
+          Our founder, Bob the blue Dragon, established Dragon's Den with the vision of creating a place where dragons
+          could learn and grow together. What
+          started as a small school inside a mountainside cave has grown into a community and technical college serving
+          dragons from across the kingdom. We
+          are proud to combine traditional dragon knowledge with the practical skills needed to <em>survive and
+            thrive</em> in the modern kingdom.
+        </p>
+      </section>
+    </div>
+    <div id="eventList">
+      <h2>Upcoming Events</h2>
+      <p>Check out our upcoming events!</p>
+      <ul>
+        <li>Dragon History Lecture - September 12, 2027, 2:00 PM</li>
+        <li>Treasure Management Workshop - September 19, 2027, 10:00 AM</li>
+        <li>Campus Open House - October 5, 2027, 11:00 AM</li>
+        <li>Dragon Flight Safety Seminar - October 12, 2027, 1:00 PM</li>
+        <li>Magical Artifact Exhibition - October 20, 2027, 3:00 PM</li>
+        <li>Student Hoard Competition - November 2, 2027, 12:00 PM</li>
+        <li>Winter Lair Design Showcase - December 7, 2027, 4:00 PM</li>
+        <li>Dragon Fire Safety Workshop - December 10, 2027, 9:00 AM</li>
+        <li>Dragon Career Fair - December 15, 2027, 1:00 PM</li>
+        <li>Winter Graduation Ceremony - December 20, 2027, 3:00 PM</li>
+      </ul>
+    </div>
+
+    <div id="mailingList">
+      <h2>Mailing List</h2>
+      <p>Subscribe to our mailing list to stay updated on the latest news and events at Dragon's Den!</p>
+      <form action="https://example.com/subscribe" method="post">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <address>
+      <h3>Contact Information</h3>
+      <ul>
+        <li>Address: Dragon Way, St. Cloud, MN 56301</li>
+        <li>Email: <a href="mailto:contact@dragonsden.edu">contact@dragonsden.edu</a></li>
+        <li>Phone: <a href="tel:+01-123-456-7890">(123) 456-7890</a></li>
+        <li>Fax: (123) 456-7891</li>
+      </ul>
+    </address>
+    <a href="https://www.minnstate.edu/" target="_blank">Visit MinnState website</a>
+  </footer>
+  <script type="text/javascript">
+    // Add any JavaScript code here
+    var currentYear = new Date().getFullYear();
+    var collegeName = "Dragon's Den Community and Tech College";
+    var collegeInfo = currentYear + " " + collegeName;
+    // function to display text in the console
+    function displayInfo(text) {
+
+      if ( text !== null) {
+        console.log(text);
+      } else {
+        console.log("Error: No text provided.");
+      }
+
+    }
+  </script>
+</body>
+
+</html>
